@@ -12,3 +12,8 @@ __pycache__/
 # собирается скриптом make_app.sh
 DiktovkaMac.app/
 Diktovka.app/
+
+# сборка PyInstaller
+build/
+dist/
+*.spec
