@@ -1,6 +1,7 @@
 # DiktovkaMac
 
-Русский голосовой ввод в **любое** окно на Mac. Локально, быстро, без облака.
+**Транскрибатор для Kimi и мессенджеров** — русский голосовой ввод в **любое** окно на Mac.
+Локально, быстро, без облака.
 **Russian voice typing into any macOS app. Local, fast, offline.**
 
 [English below](#english)
@@ -9,6 +10,7 @@
 
 ## Русский
 
+Говорите в Kimi — и в любом другом приложении: Telegram, WhatsApp, браузер, Word, почта.
 Поставили курсор — нажали клавишу — говорите — нажали ещё раз — готовый текст в поле ввода.
 Речь распознаёт нейросеть **Whisper** (faster-whisper) прямо на вашем Mac: запись никуда
 не отправляется. Пока идёт распознавание, внизу экрана по центру крутится розовый шарик —
@@ -102,7 +104,9 @@ F7–F12 на Mac — медиа-клавиши, до программ не до
 
 ## English
 
-Cursor in — press the hotkey — speak — press again — finished text lands in the input field.
+A **voice transcriber for Kimi and messengers**: speak in Kimi — or in any other app,
+Telegram, WhatsApp, browser, Word, mail. Cursor in — press the hotkey — speak — press again —
+finished text lands in the input field.
 Speech is recognized by the **Whisper** neural network (faster-whisper) right on your Mac:
 the recording never leaves the computer. While recognizing, a pink sphere spins at the
 bottom-center of the screen, so you can see your speech being converted. When done, the
