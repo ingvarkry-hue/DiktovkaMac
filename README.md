@@ -1,6 +1,6 @@
 # DiktovkaMac
 
-**Транскрибатор для Kimi и мессенджеров** — русский голосовой ввод в **любое** окно на Mac.
+**Транскрибатор для KIMI и мессенджеров** — русский голосовой ввод в **любое** окно на Mac.
 Локально, быстро, без облака.
 **Russian voice typing into any macOS app. Local, fast, offline.**
 
@@ -10,7 +10,7 @@
 
 ## Русский
 
-Говорите в Kimi — и в любом другом приложении: Telegram, WhatsApp, браузер, Word, почта.
+Говорите в KIMI — и в любом другом приложении: Telegram, WhatsApp, браузер, Word, почта.
 Поставили курсор — нажали клавишу — говорите — нажали ещё раз — готовый текст в поле ввода.
 Речь распознаёт нейросеть **Whisper** (faster-whisper) прямо на вашем Mac: запись никуда
 не отправляется. Пока идёт распознавание, внизу экрана по центру крутится розовый шарик —
@@ -20,7 +20,7 @@
 
 ### Возможности
 
-- Работает в любом приложении: браузер, Telegram, Kimi, Word, почта
+- Работает в любом приложении: браузер, KIMI, Telegram, Word, почта
 - Полностью локальное распознавание — приватность по умолчанию
 - Apple Silicon считает на чипе (MPS): секунда речи распознаётся примерно за секунду
 - Горячая клавиша на выбор: 英数 / かな на JIS-клавиатурах или любая комбинация с модификаторами
@@ -104,7 +104,7 @@ F7–F12 на Mac — медиа-клавиши, до программ не до
 
 ## English
 
-A **voice transcriber for Kimi and messengers**: speak in Kimi — or in any other app,
+A **voice transcriber for KIMI and messengers**: speak in KIMI — or in any other app,
 Telegram, WhatsApp, browser, Word, mail. Cursor in — press the hotkey — speak — press again —
 finished text lands in the input field.
 Speech is recognized by the **Whisper** neural network (faster-whisper) right on your Mac:
@@ -116,7 +116,7 @@ sphere fades out and the text is in place.
 
 ### Features
 
-- Works in any app: browser, Telegram, Word, mail
+- Works in any app: KIMI, browser, Telegram, Word, mail
 - Fully local recognition — private by default
 - Apple Silicon computes on the MPS chip: ~1 second of speech per second of audio
 - Hotkey of your choice: 英数 / かな on JIS keyboards or any modifier combination
