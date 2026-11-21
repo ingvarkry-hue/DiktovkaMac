@@ -1,0 +1,13 @@
+# окружение и скачанное
+venv/
+models/
+
+# локальные настройки и следы работы
+config.json
+*.log
+*.pid
+__pycache__/
+.DS_Store
+
+# собирается скриптом make_app.sh
+Diktovka.app/
