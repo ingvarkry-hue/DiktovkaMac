@@ -1,4 +1,0 @@
-#!/bin/bash
-# Запускает «Диктовку» из её виртуального окружения Python.
-BASE="$(cd "$(dirname "$0")/../../.." && pwd)"
-exec "$BASE/venv/bin/python" "$BASE/diktovka_mac.py" >> "$BASE/diktovka.log" 2>&1
