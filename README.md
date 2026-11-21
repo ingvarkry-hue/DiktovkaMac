@@ -14,6 +14,8 @@
 не отправляется. Пока идёт распознавание, внизу экрана по центру крутится розовый шарик —
 видно, что речь преобразуется. Закончил — шарик гаснет, текст на месте.
 
+![DiktovkaMac в работе](docs/demo.gif)
+
 ### Возможности
 
 - Работает в любом приложении: браузер, Telegram, Kimi, Word, почта
@@ -105,6 +107,8 @@ Speech is recognized by the **Whisper** neural network (faster-whisper) right on
 the recording never leaves the computer. While recognizing, a pink sphere spins at the
 bottom-center of the screen, so you can see your speech being converted. When done, the
 sphere fades out and the text is in place.
+
+![DiktovkaMac in action](docs/demo.gif)
 
 ### Features
 
