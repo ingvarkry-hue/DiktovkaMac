@@ -1,4 +1,4 @@
-# «Диктовка» для macOS – русский голосовой ввод в любое окно.
+# DiktovkaMac – русский голосовой ввод в любое окно на Mac.
 # Порт https://github.com/andrianov28/diktovka (оригинал – только Windows).
 # F8 – начать запись, F8 ещё раз – распознать и вставить текст туда, где стоит курсор.
 # Распознаёт локально: Whisper (faster-whisper), на Mac – на процессоре (Core ML/ANE нет,
@@ -12,9 +12,9 @@ os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
 os.environ.setdefault("HF_HUB_VERBOSITY", "error")
 import warnings; warnings.filterwarnings("ignore")
 
-LOG = os.path.join(BASE, "diktovka.log")
+LOG = os.path.join(BASE, "DiktovkaMac.log")
 CFG_PATH = os.path.join(BASE, "config.json")
-PID_PATH = os.path.join(BASE, "diktovka.pid")
+PID_PATH = os.path.join(BASE, "DiktovkaMac.pid")
 
 DEFAULT_CFG = {
     "hotkey": "eisu",            # 英数 – клавиша слева от пробела на японской JIS-клавиатуре.

@@ -3,14 +3,14 @@
 set -e
 cd "$(dirname "$0")"
 
-APP="Diktovka.app"
+APP="DiktovkaMac.app"
 mkdir -p "$APP/Contents/MacOS"
 
-cat > "$APP/Contents/MacOS/Diktovka" <<'EOF'
+cat > "$APP/Contents/MacOS/DiktovkaMac" <<'EOF'
 #!/bin/bash
-# Запускает «Диктовку» из её виртуального окружения Python.
+# Запускает DiktovkaMac из её виртуального окружения Python.
 BASE="$(cd "$(dirname "$0")/../../.." && pwd)"
-exec "$BASE/venv/bin/python" "$BASE/diktovka_mac.py" >> "$BASE/diktovka.log" 2>&1
+exec "$BASE/venv/bin/python" "$BASE/DiktovkaMac.py" >> "$BASE/DiktovkaMac.log" 2>&1
 EOF
 chmod +x "$APP/Contents/MacOS/Diktovka"
 
@@ -20,17 +20,17 @@ cat > "$APP/Contents/Info.plist" <<'EOF'
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>Diktovka</string>
+    <string>DiktovkaMac</string>
     <key>CFBundleDisplayName</key>
-    <string>Диктовка</string>
+    <string>DiktovkaMac</string>
     <key>CFBundleIdentifier</key>
-    <string>com.diktovka.app</string>
+    <string>com.diktovkamac.app</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleExecutable</key>
-    <string>Diktovka</string>
+    <string>DiktovkaMac</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>LSUIElement</key>

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Установка «Диктовки» для macOS: окружение, библиотеки, модель, приложение.
+# Установка DiktovkaMac: окружение, библиотеки, модель, приложение.
 set -e
 cd "$(dirname "$0")"
 
@@ -21,12 +21,12 @@ echo "==> Подготавливаю config.json…"
 [ -f config.json ] || cp config.example.json config.json
 
 echo "==> Скачиваю модель распознавания (~1,6 ГБ, один раз)…"
-./venv/bin/python diktovka_mac.py --download
+./venv/bin/python DiktovkaMac.py --download
 
-echo "==> Собираю Diktovka.app…"
+echo "==> Собираю DiktovkaMac.app…"
 bash make_app.sh
 
 echo
 echo "Готово! Сейчас откроется macOS с вопросом про «Универсальный доступ» — разрешите."
 echo "После этого нажмите 英数 (или свою клавишу из config.json) и говорите."
-open Diktovka.app
+open DiktovkaMac.app

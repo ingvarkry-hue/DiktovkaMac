@@ -10,4 +10,4 @@ __pycache__/
 .DS_Store
 
 # собирается скриптом make_app.sh
-Diktovka.app/
+DiktovkaMac.app/
